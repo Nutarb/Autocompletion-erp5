@@ -1,0 +1,27 @@
+{
+    "name": "Autocompletion-erp5",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "description": "监测登录状态",
+    "browser_action": {
+        "default_icon": "icons/icon.png",
+        "default_title": "Autocompletion-erp5"
+    },
+    "icons": {
+        "128": "icons/icon.png",
+        "16": "icons/icon.png",
+        "48": "icons/icon.png"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "<all_urls>"   
+    ],
+  
+    "background": {
+        "scripts": [
+            
+            "./js/status.js"
+        ]
+    }
+}
